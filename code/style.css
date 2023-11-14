@@ -1,0 +1,19 @@
+html {
+  background: #f2f1f4;
+  color: #19171c;
+}
+
+.description {
+  display: none;
+  font-size: large;
+  color: red; 
+}
+
+.active + .description{
+  display: block;
+
+}
+
+.title {
+  cursor: pointer;
+}
